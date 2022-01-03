@@ -25,10 +25,10 @@ const Contact = () => {
   const sendEmail = async () => {
     try {
       const result = await emailjs.sendForm(
-        `gmail`,
-        `emailjs`,
+        `service_d9rjvhm`,
+        `template_m87r26a`,
         form.current,
-        `user_Ar1zI6cvC6aUG82I1aNsA`
+        `user_ucFEdzeunYNf2Bv2zSFGb`
       );
       console.log("result ", result.text);
     } catch (error) {
@@ -43,7 +43,7 @@ const Contact = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    // console.log("form submitted !", values);
+    console.log("form submitted !", values);
     // TODO : Send data to your email
     setLoading(true);
     await sendEmail();

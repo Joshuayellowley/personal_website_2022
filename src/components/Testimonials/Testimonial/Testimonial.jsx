@@ -4,11 +4,7 @@ import React from "react";
 import "./testimonial.css";
 
 // Icons
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons/faExternalLinkAlt";
-
 const Testimonial = ({ testimonial }) => {
-  console.log(testimonial.text);
   return (
     <div className="testimonial-card">
       <div className="source-icon">{testimonial.company}</div>
@@ -23,6 +19,7 @@ const Testimonial = ({ testimonial }) => {
           rel="noopener noreferrer"
           className="url"
         >
+          
         </a>
       </div>
     </div>
