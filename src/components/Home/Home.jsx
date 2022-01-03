@@ -35,8 +35,8 @@ const Home = () => {
         initial="initial"
         animate="animate"
       >
-        <h1>I’m Junaid</h1>
-        <p>I am a Full stack developer and Level one seller at Fiverr. </p>
+        <h1>I’m Josh</h1>
+        <p>I am a Computer Engineering Student at UBC and an Incoming SDE Intern @ Amazon. </p>
         <Link
           className="home-btn"
           to={"portfolio"}

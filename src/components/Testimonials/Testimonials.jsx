@@ -4,7 +4,7 @@ import React from "react";
 import "./testimonials.css";
 
 // Data
-import { fiverrTestimonials } from "data/data";
+import { workExperience } from "data/data";
 
 // components
 import { Heading } from "components/Heading/Heading";
@@ -18,10 +18,10 @@ const Portfolio = () => {
       name="testimonials"
       id="testimonials"
     >
-      <Heading text="Client Testimonials" style={{ padding: "3rem" }} />
+      <Heading text="Work Experience" style={{ padding: "3rem" }} />
       <ul>
-        {fiverrTestimonials &&
-          fiverrTestimonials.map((testimonial) => (
+        {workExperience &&
+          workExperience.map((testimonial) => (
             <Testimonial key={testimonial.id} testimonial={testimonial} />
           ))}
       </ul>

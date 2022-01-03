@@ -8,7 +8,7 @@ import {
   portfolioList,
   featuredPortfolio,
   webAppPortfolio,
-  websitePortfolio,
+  socialPortfolio,
 } from "data/data";
 
 // components
@@ -37,8 +37,8 @@ const Portfolio = () => {
         setData(webAppPortfolio);
         break;
 
-      case "website":
-        setData(websitePortfolio);
+      case "social":
+        setData(socialPortfolio);
         break;
 
       default:

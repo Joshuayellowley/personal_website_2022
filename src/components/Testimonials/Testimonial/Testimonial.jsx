@@ -8,15 +8,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons/faExternalLinkAlt";
 
 const Testimonial = ({ testimonial }) => {
+  console.log(testimonial.text);
   return (
     <div className="testimonial-card">
-      <div className="source-icon">fiverr.</div>
+      <div className="source-icon">{testimonial.company}</div>
       <div className="details">
-        <p className="text">{testimonial.text}</p>
-        <p className="name">
-          {testimonial.name}
-          <span className="country"> - {testimonial.country}</span>{" "}
-        </p>
+        <div className="name">{testimonial.date}: <span className="country">{testimonial.title}</span></div>
+          
+        { testimonial.text.map(line => ( <p className="text">{line}</p>))}
 
         <a
           href={testimonial.url}
@@ -24,12 +23,6 @@ const Testimonial = ({ testimonial }) => {
           rel="noopener noreferrer"
           className="url"
         >
-          View
-          <FontAwesomeIcon
-            icon={faExternalLinkAlt}
-            size="sm"
-            className="icon"
-          />
         </a>
       </div>
     </div>
