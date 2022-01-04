@@ -15,7 +15,7 @@ const Portfolio = () => {
     <section
       data-aos="fade-left"
       className="testimonials"
-      name="testimonials"
+      name="work"
       id="testimonials"
     >
       <Heading text="Work Experience" style={{ padding: "3rem" }} />

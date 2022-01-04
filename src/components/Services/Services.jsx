@@ -15,7 +15,7 @@ const Services = () => {
     <section
       data-aos="fade-right"
       className="services-container"
-      name="services"
+      name="experience"
       id="services"
     >
       <Heading text="Experience" />

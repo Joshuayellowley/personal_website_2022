@@ -10,7 +10,7 @@ export const Menu = ({ menuOpen, setMenuOpen }) => {
         <NavLink text="Home" path="home" onClick={() => setMenuOpen(false)} />
         <NavLink
           text="Experience"
-          path="services"
+          path="experience"
           onClick={() => setMenuOpen(false)}
         />
         <NavLink
@@ -20,7 +20,7 @@ export const Menu = ({ menuOpen, setMenuOpen }) => {
         />
         <NavLink
           text="Work Experience"
-          path="testimonials"
+          path="work"
           onClick={() => setMenuOpen(false)}
         />
         <NavLink

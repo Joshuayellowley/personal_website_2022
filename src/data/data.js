@@ -68,8 +68,8 @@ export const featuredPortfolio = [{
         id: 2,
         title: "Graph-Traversal and Path-planning Project",
         img: "https://i.stack.imgur.com/QH0jL.png",
-        repositoryUrl: "https://github.com/developer-junaid/Blog-Site/",
-        liveUrl: "https://techberg-blog.netlify.app/",
+        repositoryUrl: "https://github.com/Joshuayellowley/CPEN-221-Kamino-Game",
+        liveUrl: "https://github.com/Joshuayellowley/CPEN-221-Kamino-Game",
         tagline: "Java",
     },
     {
